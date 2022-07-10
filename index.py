@@ -6,8 +6,10 @@ def sorting(arr, N):
 def compare(item1, item2):
   if (item1 < item2):
     return -1
-  else:
+  elif (item1 > item2):
     return 1
+  else:
+    return 0
 
 if __name__ == "__main__":
   arr= [14, 1, 2, 12, 100, 1]
