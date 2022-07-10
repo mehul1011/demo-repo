@@ -3,4 +3,6 @@ function f() {
   return -1;
 }
 
-function f() {}
+function main() {
+  f();
+}
