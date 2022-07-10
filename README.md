@@ -10,6 +10,6 @@ Updated line
 
 This is Mehul, from Japan!
 
-# Git Project
+# Content Start
 
-Tutorial
+- This is demo repo for git practice.
