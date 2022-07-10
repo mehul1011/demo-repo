@@ -6,7 +6,7 @@ def sorting(arr, N):
 def compare(item1, item2):
   if (item1 < item2):
     return -1
-  else:
+  elif (item1 > item2):
     return 1
 
 if __name__ == "__main__":
