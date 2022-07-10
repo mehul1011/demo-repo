@@ -3,7 +3,6 @@ import functools
 def sorting(arr, N):
   # instead using sorted() method
   arr = sorted(arr, key= functools.cmp_to_key(compare))
-  print(arr)
 def compare(item1, item2):
   if (item1 < item2):
     return -1
